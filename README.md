@@ -37,7 +37,7 @@ This jupyter notebook implements a Deep Neural Network (DNN) based denoising aut
   f. Measures performance of autoencoder in terms of SSIM and PSNR.
   
 ## 4. Filtering_mnist_traditional-vs-autoencoder.ipynb:
-This jupyter notebook implements traditional filters (Weiner, Median, Bilateral and NLM) on MNIST data in order to compare their performance with the DNN autoencoder. The flow of this code is as follows:
+This jupyter notebook implements traditional filters (Weiner, Median, Bilateral and NLM) on MNIST as well as Natural image data. Performance of MNIST on traditional filters is compared with DNN autoencoder. SSIM and PSNR values are used directly from Denoising_Autoencoder.ipynb file. The flow of this code is as follows:
   
   a. Loads both standard images and MNIST images
   
@@ -45,7 +45,7 @@ This jupyter notebook implements traditional filters (Weiner, Median, Bilateral 
   
   c. Measures performance of traditional filters on standard and MNIST images in terms of SSIM and PSNR.
   
-  d. Plots SSIM and PSNR performance of traditional filters with the DNN autoencoder results obtained from 'Denoising_Autoencoder.ipynb'.
+  d. Plots SSIM and PSNR performance of traditional filters with the DNN autoencoder results obtained from 'Denoising_Autoencoder.ipynb' for MNIST data.
 
 ## 5. 'results':
 The results folder contains the different inputs and output images of filters, along with the bar plot results.
